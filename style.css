@@ -5,13 +5,21 @@
 
 .img-container {
   height: 180px;
-  width: 100px;
+  margin-top: 60px;
+}
+
+/* ================================
+=============TYPOGRAPHY===========
+================================== */
+
+h2 {
+  font-family: "Bangers", system-ui;
 }
 
 img {
   display: block;
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 body {
@@ -21,7 +29,9 @@ body {
 main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card-container {
@@ -30,4 +40,21 @@ main {
   color: white;
   display: flex;
   max-width: 500px;
+  border-radius: 10px;
+}
+
+.details-container {
+  padding: 30px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.label,
+.occupation {
+  color: black;
 }
